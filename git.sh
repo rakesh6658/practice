@@ -7,3 +7,5 @@ exit 1
 else
 echo "user is root user"
 fi
+yum update -y
+yum install git -y
