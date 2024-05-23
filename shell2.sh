@@ -5,7 +5,7 @@ add=$((1+2))
 echo "$add"
 
 day=$1
-if[ $day==sunday ]
+if [ $day==sunday ]
 then
 echo "today is holiday"
 else
